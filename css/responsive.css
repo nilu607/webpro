@@ -1,0 +1,131 @@
+@media (max-width:800px){
+
+	.hide-desktop{display: block;}
+	.hide-mobile{display: none;}
+
+	.container-fluid {
+	    max-width: 100%;
+	} 
+	.navbar-header{display: block;}
+	
+	.post-height {
+	    height: auto;
+	} 
+
+	.hideOnMobile{display: none;}
+	.wrapper{padding: 0;}
+	.footer_wrapper{padding:10px;}
+	.dictionary_header {
+	    margin:15px  ;
+	    font-family: 'Trebuchet MS';
+	    font-weight: bold;
+	    text-align: center;
+	}
+
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+	    color: #ffffff;
+	}
+	.navbar-nav {
+	    margin: -0.5px -15px;
+	}
+
+	.search_value {
+	    width: 70%;
+	}
+	.header_title span.dic_title { 
+	    font-size: 45px; 
+	}
+	.datagrid_result {
+	    width: 100%; 
+	}
+	.sponsor_wrappers {
+	    width: 100%; 
+	}
+
+	.navbar-nav { 
+	    background-color: #245a7e;
+	}
+
+
+}
+@media (max-width:767px){
+
+	
+}
+@media (max-width:640px){
+
+	.search_wrapper { 
+	    width: 75%; 
+	}
+
+
+	.header_title {
+	    text-align: center;
+	    position: relative;
+	    margin: 15px 0 15px 0;
+	}
+
+	.header_title span.dic_title {
+	    font-size: 40px;
+	    width: 100%;
+	}
+
+	.ctitle { 
+	    height: 120px;
+	}
+
+
+	
+}
+
+@media (max-width:480px ){
+	.search_wrapper {
+	    width: 85%;
+	}
+}
+
+@media (max-width:414px){
+	.dictionary_header { 
+	    font-size: 25px; 
+	} 
+	.search_wrapper { 
+	    width: 100%; 
+	}
+	.donor_list_title{
+		font-size: 28px;
+		text-align: left;
+		margin-top: 15px;
+	}
+
+	.header_title span.beta_title { 
+	    width: 75%;
+	}
+
+	
+}
+
+@media (max-width:340px){
+
+}
+@media (max-width:320px){
+	
+	.search_wrapper {
+	    width: 100%;
+	}
+	.search_value {
+	    width: 65%;
+	}
+	.header_title span.dic_title {
+	    font-size: 35px;
+	    width: 100%;
+	}
+
+	.header_title span.beta_title {
+		font-size: 16px;
+		width: 80%;
+	}
+
+	h1.dictionary_header { 
+	    font-size: 25px; 
+	}
+}
